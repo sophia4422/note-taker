@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require("uuid");
 
 // const { renderHomePage, renderNotePage } = require("./view");
 
-const { readFromFile, writeToFile } = require("src/utils");
+const { readFromFile, writeToFile } = require("../utils");
 
 const getNotes = (req, res) => {
   //read from file
