@@ -1,4 +1,4 @@
-# Note-Taker App using NodeJS ![MIT badge](https://img.shields.io/badge/MIT-license-green)
+# Note-Taker App using ExpressJS ![MIT badge](https://img.shields.io/badge/MIT-license-green)
 
 ## Table of Contents
 
@@ -67,3 +67,9 @@ If you have any questions, please contact me via email: sophiapwall@yahoo.co.uk
 My Github profile is [here](https://github.com/sophia4422)
 
 ## Screenshots
+
+Screenshot of home page:
+![ScreenShot](./public/assets/ss/note-ss.png)
+
+Screenshot of note page:
+![ScreenShot2](./public/assets/ss/notes-ss-2.png)
