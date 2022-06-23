@@ -3,7 +3,7 @@ const path = require("path");
 
 const readFromFile = (fileName) => {
   try {
-    const filePath = path.join();
+    const filePath = path.join(__dirname);
 
     const data = fs.readFileSync(filePath, "utf8");
 
@@ -20,7 +20,7 @@ const readFromFile = (fileName) => {
 
 const writeToFile = (fileName, data) => {
   try {
-    const filePath = path.join();
+    const filePath = path.join(__dirname);
 
     return fs.writeFileSync(filePath, JSON.stringify(data));
   } catch (error) {
