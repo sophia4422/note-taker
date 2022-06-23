@@ -1,7 +1,6 @@
 const path = require("path");
 
 const renderHomePage = (req, res) => {
-  // res.json("renderhome");
   //render the html file
   const filePath = path.join(__dirname, "../../public/index.html");
 
@@ -10,7 +9,6 @@ const renderHomePage = (req, res) => {
 };
 
 const renderNotePage = (req, res) => {
-  // res.json("rendernote");
   const filePath = path.join(__dirname, "../../public/notes.html");
 
   //send file

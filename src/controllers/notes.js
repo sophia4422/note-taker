@@ -2,8 +2,6 @@ const fs = require("fs");
 const path = require("path");
 const { v4: uuidv4 } = require("uuid");
 
-// const { renderHomePage, renderNotePage } = require("./view");
-
 const { readFromFile, writeToFile } = require("../utils");
 
 const getNotes = (req, res) => {
@@ -14,7 +12,6 @@ const getNotes = (req, res) => {
 };
 
 const deleteNote = (req, res) => {
-  res.json("delete");
   //get id of note from request
   const { id } = req.params;
   //get all notes from file
