@@ -1,0 +1,25 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "app for notes",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophia4422/note-taker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sophia4422/note-taker/issues"
+  },
+  "homepage": "https://github.com/sophia4422/note-taker#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  }
+}
